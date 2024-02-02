@@ -64,7 +64,7 @@ function formatMoney(amount, decimalCount = 0, decimal = '.', thousands = ',') {
 
 let products = [];
 window
-  .fetch('http://localhost:3000/products')
+  .fetch('https://online-shop-backend.darkube.app/products')
   .then(res => res.json())
   .then(result => {
     products = result;

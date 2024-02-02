@@ -11,7 +11,7 @@ form.onsubmit = (e) => {
   const title = e.target.title.value;
   const text = e.target.text.value;
 
-  fetch("http://localhost:3000/contact", {
+  fetch("https://online-shop-backend.darkube.app/contact", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
